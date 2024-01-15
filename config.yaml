@@ -1,0 +1,17 @@
+model_name: ENGtoFR_transformer
+
+data_dir: data/
+train_batch_size: 4
+val_batch_size: 4
+shuffle: True
+model_dir: weights/transformer_XSUM
+epochs: 5
+
+src_vocab_size: 250027
+tgt_vocab_size: 250027
+d_model: 256
+num_heads: 4
+num_layers: 3
+d_ff: 512
+max_seq_length: 300
+dropout: 0.1
